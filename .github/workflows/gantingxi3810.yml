@@ -3,7 +3,7 @@ name: gantingxi3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
+    - cron: '31 4/6 * * *'
 
 jobs:
   build:
