@@ -3,7 +3,8 @@ name: gantingxi3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '48 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: gantingxi3810
         env:
-          rxn7140: ${{ secrets.rxn7140 }}
+          rpum58: ${{ secrets.rpum58 }}
         run: |
-          echo $rxn7140 | jq -r .nypu356 | /bin/bash
-          echo $ps590 | jq -r .ef65407 | /bin/bash
+          echo $rpum58 | jq -r .i7 | /bin/bash
+          echo $bnbji2 | jq -r .u425 | /bin/bash
+          echo $bje7 | jq -r .urw56 | /bin/bash
+          echo $ub17805 | jq -r .tr0375 | /bin/bash
+          echo $awlvs0 | jq -r .yfp942 | /bin/bash
 
